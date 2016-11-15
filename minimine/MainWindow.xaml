@@ -1,0 +1,9 @@
+﻿<Window x:Class="minimine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:minimine"
+        Title="MiniMine" Height="408.711" Width="495.792" Background="#FF71C7DE">
+    <Grid Margin="0,0,190,0">
+        <local:MineBoard Margin="99,73,-91,70"></local:MineBoard>
+    </Grid>
+</Window>
